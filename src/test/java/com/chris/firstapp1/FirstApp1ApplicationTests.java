@@ -1,6 +1,6 @@
-//package com.chris.firstapp1;
-//
-//
+package com.chris.firstapp1;
+
+
 //import java.io.IOException;
 //
 //import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@
 //import org.mockito.InjectMocks;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-//import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest;
 //import org.springframework.boot.test.mock.mockito.MockBean;
 //import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 //import org.springframework.test.context.junit4.SpringRunner;
@@ -23,14 +23,14 @@
 //import com.fasterxml.jackson.core.JsonProcessingException;
 //import com.fasterxml.jackson.databind.JsonMappingException;
 //import com.fasterxml.jackson.databind.ObjectMapper;
-//
-//
-//
+
+
+
 //@RunWith(SpringRunner.class)
-//@SpringBootTest(classes = FirstApp1Application.class)
+@SpringBootTest(classes = FirstApp1Application.class)
 //@AutoConfigureMockMvc
-//public class FirstApp1ApplicationTests {
-//	
+public class FirstApp1ApplicationTests {
+	
 //	@Autowired
 //	protected MockMvc mvc;
 //	
@@ -53,5 +53,5 @@
 //	      ObjectMapper objectMapper = new ObjectMapper();
 //	      return objectMapper.readValue(json, clazz);
 //	   }	
-//
-//}
+
+}
